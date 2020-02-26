@@ -10,14 +10,7 @@ h1{
     font-size: 2em;
     color: seagreen;
 }
-p{
-     text-align: center;
-    padding: 5px;
-    text-decoration: underline;
-    font-size: 1em;
-    color: seagreen;
-    
-}
+
 input[type=text],textarea {
     width: 100%;
     padding: 5px;
@@ -69,7 +62,6 @@ input[type=submit] {
     border-radius: 100px;
     cursor: pointer;
 }
-
 
 @media screen and (min-width: 480px){
     .taking, h1, input[type=submit], input[type=text], textarea {
