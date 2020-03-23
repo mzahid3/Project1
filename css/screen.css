@@ -4,13 +4,14 @@ html {
     background-color: blanchedalmond;
     padding: 20px;
 }
+/* Style the heading */
 h1{
     text-align: center;
     text-decoration: underline;
     font-size: 2em;
     color: seagreen;
 }
-
+/* styling the input area from here to all the way till password input */
 input[type=text],textarea {
     width: 100%;
     padding: 5px;
@@ -62,6 +63,8 @@ input[type=submit] {
     border-radius: 100px;
     cursor: pointer;
 }
+
+/* Media Queries  */
 
 @media screen and (min-width: 480px){
     .taking, h1, input[type=submit], input[type=text], textarea {
